@@ -1,4 +1,3 @@
-const form = document.querySelector("reg");
 const getFname = document.getElementById("fname");
 const getLname = document.getElementById("lname");
 const getEmail = document.getElementById("email");
@@ -33,6 +32,13 @@ onSubmit = (event) => {
     localStorage.setItem("Data Entry", JSON.stringify(arrEntry));
 
     displayUsers();
+
+    getFname.value="";
+    getLname.value="";
+    getEmail.value="";
+    getPassword.value="";
+    getRepassword.value="";
+    getGender.value="";
 }
 
 function displayUsers()
