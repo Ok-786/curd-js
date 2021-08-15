@@ -3,7 +3,7 @@
 }
 
 #ui {
-    background: linear-gradient( to bottom,rgba(42, 161, 161, 0.151) 0%, rgba(142, 73, 232, 0.144) 100%);
+    background: linear-gradient( to bottom,rgba(42, 161, 161, 0.411) 0%, rgba(142, 73, 232, 0.144) 100%);
     padding: 5%;
 }
 
@@ -12,9 +12,10 @@
     padding-bottom: 5%;
 }
 
+
 .btn {
     margin-top: 10%;
-    background-color: #c7b3e2;
+    background-color: #4c2780;
     color: white;
 }
 
@@ -60,6 +61,7 @@
   font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
+  color: white;
 }
 
 .footer button:hover{
@@ -81,6 +83,7 @@
   padding: 0 15px;
   cursor: default;
   overflow: hidden;
+  color: rgb(177, 166, 166);
 }
 .showEntry li span{
   position: absolute;

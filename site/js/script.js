@@ -45,7 +45,7 @@ function displayUsers()
     let liShowEntry = "";
     arrEntry = arrEntry.reverse();
     arrEntry.forEach((element, index) => {
-        liShowEntry += `<li ><h4><b>User ${arrEntry.length-index}: </b></h4><p>Username: ${element.firstName + " " + element.lastName}</p> <p>Email: ${element.email}</p> <p>Gender: ${element.gender}</p> Password: ${element.password} <span onclick="deleteTask(${index})"><i class="fas fa-trash"></i></span></li>`;
+        liShowEntry += `<li ><h4 style="color:white"><b>User ${arrEntry.length-index}: </b></h4><p>Username: ${element.firstName + " " + element.lastName}</p> <p>Email: ${element.email}</p> <p>Gender: ${element.gender}</p> Password: ${element.password} <span onclick="deleteTask(${index})"><i class="fas fa-trash"></i></span></li>`;
     })
    
     showEntry.innerHTML = liShowEntry;
