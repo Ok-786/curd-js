@@ -1,0 +1,125 @@
+.container {
+    margin: 10%;
+}
+
+#ui {
+    background: linear-gradient( to bottom,rgba(42, 161, 161, 0.151) 0%, rgba(142, 73, 232, 0.144) 100%);
+    padding: 5%;
+}
+
+.inside {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.btn {
+    margin-top: 10%;
+    background-color: #c7b3e2;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #8E49E8;
+}
+.form-control {
+    cursor: pointer;
+}
+
+
+
+.selectwrapper{
+     border-radius:36px;
+    /* display:inline-block; */
+    overflow:hidden;
+  }
+
+  #gender {
+    color: white;
+    background-color: rgba(144, 206, 206, 0.466);
+  }
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+::selection{
+  color: #ffff;
+  background: rgb(142, 73, 232);
+}
+
+.wrapper{
+  background: linear-gradient( to bottom,rgba(42, 161, 161, 0.164) 0%, rgba(142, 73, 232, 0.151) 100%);
+  width: 100%;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.wrapper header{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer button:hover{
+  background: #721ce3;
+}
+.wrapper .showEntry{
+  max-height: 250px;
+  overflow-y: auto;
+}
+.showEntry li{
+  position: relative;
+  list-style: none;
+  /* height: 45px; */
+  /* line-height: 45px; */
+  margin-bottom: 18px;
+  margin-right: 30px;
+  background: #95bfcc31;
+  border-radius: 10px;
+  padding: 0 15px;
+  cursor: default;
+  overflow: hidden;
+}
+.showEntry li span{
+  position: absolute;
+  right: -45px;
+  background: #e74c3c;
+  width: 45px;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.showEntry li:hover span{
+  right: 0px;
+}
+.wrapper .footer{
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer button{
+  padding: 6px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 5px;
+  background: #8E49E8;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.6;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.footer button.active{
+  opacity: 1;
+  pointer-events: auto;
+}
