@@ -38,7 +38,6 @@ onSubmit = (event) => {
     getEmail.value="";
     getPassword.value="";
     getRepassword.value="";
-    getGender.value="";
 }
 
 function displayUsers()

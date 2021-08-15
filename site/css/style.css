@@ -3,7 +3,7 @@
 }
 
 #ui {
-    background: linear-gradient( to bottom,rgba(42, 161, 161, 0.411) 0%, rgba(142, 73, 232, 0.144) 100%);
+    background: linear-gradient( to bottom,rgba(42, 161, 161, 0.253) 0%, rgba(142, 73, 232, 0.356) 100%);
     padding: 5%;
 }
 
@@ -36,7 +36,8 @@
 
   #gender {
     color: white;
-    background-color: rgba(144, 206, 206, 0.466);
+    background-color: rgba(66, 104, 104, 0.466);
+    border: none
   }
 
 
