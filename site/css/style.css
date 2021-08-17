@@ -86,10 +86,10 @@
   overflow: hidden;
   color: rgb(177, 166, 166);
 }
-.showEntry li span{
+.showEntry li span {
   position: absolute;
   right: -45px;
-  background: #e74c3c;
+  
   width: 45px;
   text-align: center;
   color: #fff;
@@ -97,6 +97,25 @@
   cursor: pointer;
   transition: all 0.2s ease;
 }
+
+#deletes{
+  background: #e74c3c;
+}
+#edits {
+  background:orange ;
+}
+
+.unmatch {
+  color: red;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.match {
+  color: greenyellow;
+}
+
 .showEntry li:hover span{
   right: 0px;
 }

@@ -21,7 +21,7 @@
             <div class="col-lg-0"></div>
             <div class="col-lg-6">
                 <div id="ui">
-                    <form name="reg" onsubmit="onSubmit(event)" >
+                    <form id="reg" name="reg" onsubmit="onSubmit(event)" >
                         <div class="inside row">
                             <div class="col-lg-6">
                                 <label class="label">First Name:</label>
@@ -41,13 +41,14 @@
                             <div class="col-lg-6">
                                 <label class="label">Password:</label>
                                 <input type="password" name="password" id="password" required="" class="form-control"
-                                    placeholder="Enter password">
+                                    placeholder="Enter password" onkeyup="onKeyUp()">
+                                    <label class="message"></label>
                             </div>
 
                             <div class="col-lg-6">
                                 <label class="label">Re-enter Password:</label>
                                 <input type="password" name="repassword" id="repassword" required="" class="form-control"
-                                    placeholder="Re-type password">
+                                    placeholder="Re-type password" onkeyup="onKeyUp()">
                             </div>
                         </div>
                         <div class="selectwrapper">
@@ -58,7 +59,7 @@
                                 <option value="unspecified">Unspecified</option>
                             </select>
                         </div>
-                        <input type="submit"  value="Submit"
+                        <input  type="submit"  value="Submit"
                             class="btn btn-pimary btn-block btn-lg"> 
                     </form>
                 </div>
@@ -77,7 +78,7 @@
                         
                     </ul>
                     <div class="footer">
-                        <span class="label">You have <span class="pendingTasks">0</span> Users Registered</span>
+                        <span class="label" >You have <span class="pendingTasks">0</span> Users Registered</span>
                         <button>Clear All</button>
                     </div>
                 </div>
